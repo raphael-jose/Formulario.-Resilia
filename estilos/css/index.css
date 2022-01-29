@@ -1,0 +1,100 @@
+header{
+    display: flex;
+}
+      Img{
+        margin-left:auto; margin-right: auto;
+        height:40px;
+    }
+
+  #titulo{
+      display: flex;
+      justify-content: center;
+          font-family: sans-serif;
+          color: #0B0B0B;
+          margin-left:0%
+      }
+
+  #subtitulo{
+          font-family: sans-serif;
+          color: #474141;
+          margin-left: 10%
+      }
+
+      form{
+          display: flex;
+          justify-content: center;
+}
+
+
+
+  fieldset{
+      justify-content: center;
+          align-items: right;
+          float:left;
+          border-radius:10px;
+          border: 450px;
+          background-color: rgb(215, 238, 12);
+      }
+
+  body{ 
+      margin-top: 3%;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJZN8c69K29X4hwNAZ_pwE2u6QmXe27iPbSg&usqp=CAU);
+      background-repeat:no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-color:rgb(202, 206, 197);
+
+      }
+
+      .bot{
+          display: flex;
+          justify-content: center;
+      }
+  #botao{ 
+       margin-right:16px;  
+      transition:0.5s;
+      background-color: #020202;
+      border-radius:8px;
+      border:none;
+      max-width:150px;
+      height: 53px;
+      padding: 0px 40px;
+      font-size:15px;
+      color:white ;
+
+      }
+
+  #botao:hover{
+      transform: translateY(3px);
+  }
+
+  #botao:active{
+      transform: translateY(4px);
+  }
+ 
+  .img-login{
+   width: 450px; height: 400px;
+  }
+
+  .tag{
+float:right
+  }
+
+  h2{
+      display: flex;
+      justify-content: center;
+      float:left
+  }
+         
+footer{
+    background-color: #020202;
+    border: 0;
+    vertical-align: baseline;
+    color: yellow;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'impact';
+    text-align: center;
+}

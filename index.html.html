@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastre-se</title>
+    <link rel="shortcut icon" href="./estilos/img/favicon.png">    
+    <link rel="stylesheet" href="./estilos/css/index.css" >
+</head> 
+<header>
+    <img src="https://www.resilia.com.br/wp-content/themes/resiliaTheme/assets/images/logo.png">
+</header>
+<body>
+    <div>
+        <h1 id="titulo"> <strong>Cadastro para Novos Resilientes!</strong></h1>
+        
+    </div>
+
+    <form>
+        <fieldset class="fomulario">
+            <p id="subtitulo">
+                <strong>
+                    <h2>Insira seus Dados:</h2>
+                    <img class="tag" src="./estilos/img/tags.png">
+                </strong>
+
+            </p>
+
+            <br>   
+                <label for="nome"></label>
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                <label for="sobrenome"></label>     
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required> 
+
+            </div>    
+
+            <div>
+                <label for="celular"></label>
+                <input type="tel" name="number" id="numero" placeholder="Celular" required>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+
+            <div>
+            <label for="date"></label>
+            <input type="date" name="date" id="data" required>
+            
+        </div>  
+       
+            <br>
+
+            <div> 
+                <label id="Genero"><strong>Genero</strong></label>
+            </div>
+
+            <label>
+                <input type="checkbox" name="masculino" value="masculino"> Masculino
+            </label>
+
+            <label>
+                <input type="checkbox" name="feminino" value="feminino"> Feminino
+            </label>
+
+            <label>
+                <input type="checkbox" name="outro" value="outro"> Prefiro não dizer
+            </label><br><br>
+
+        </div>
+        
+        <div>
+            <label>De onde Você é?</label>
+            <select id="estados" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Rio de janeiro</option>
+                    <option>São Paulo</option>
+                    <option>Minas Gerais</option>
+                    <option>Espirito Santo</option>
+                    <option>Acre</option>
+                    <option>Amapá</option>
+                    <option>Amazonas</option>
+                    <option>Bahia</option>
+                    <option>Ceará</option>
+                    <option>Alagoas</option>
+                    <option>Distrito Federal</option>
+                    <option>Maranhão</option>
+                    <option>Mato Grosso</option>
+                    <option>Mato Grosso do Sul</option>
+                    <option>Pará</option>
+                    <option>Goiás</option>
+                    <option>Paraíba</option>
+                    <option>Paraná</option>
+                    <option>Pernambuco</option>
+                    <option>Piauí</option>
+                    <option>Rio Grande do Norte</option>
+                    <option>Rio Grande Do Sul</option>
+                    <option>Rondônia</option>
+                    <option>Roraima</option>
+                    <option>Santa Catarina</option>
+                    <option>Sergipe</option>
+                    <option>Tocantins</option>
+
+            </select>
+            <br><br>
+
+        </div>
+
+    <div>
+            <label>Selecione O curso desejado</label><br><br>
+            <input type="checkbox" id="front" name="front" value="front">
+            <label for="front">Front-end</label>
+            <input type="checkbox" id="back" name="back" value="back">
+            <label for="back">Back-end</label>
+            <input type="checkbox" id="full" name="full" value="full">
+            <label for="full">Full-Stack</label>
+            
+    </div>
+    <br>
+    <div class="bot">
+        <button type="submit" id="botao">Enviar</button>
+    </div>
+    </fieldset>
+
+       
+    </form>
+<footer>Desenvolvido por Raphael José</footer>
+</body>
+</html>
